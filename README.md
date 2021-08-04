@@ -9,13 +9,13 @@ My main motivation was to create a simple, command-line based load testing image
 Docker:
 
 ```sh
-docker run --rm -it zellerhub/load-it:1.0.0
+docker run --rm -it ghcr.io/niclaszll/load-it:1.0.0
 ```
 
 Kubernetes:
 
 ```sh
-kubectl run -i --tty load-it --image=zellerhub/load-it:1.0.0
+kubectl run -i --tty load-it --image=ghcr.io/niclaszll/load-it:1.0.0
 ```
 
 Afterwards simply run your `k6` or `mqtt-stresser` commands.
